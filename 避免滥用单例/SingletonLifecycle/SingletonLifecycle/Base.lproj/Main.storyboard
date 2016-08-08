@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="WwN-DP-keC">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--单例生命周期测试-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ocD-YL-n91">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="单例生命周期" id="Tkd-hO-5vi">
+                                        <connections>
+                                            <segue destination="LBB-C7-TCV" kind="show" id="PZm-IU-Mco"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="把单例对象的作用域缩小到某个作用域； 但此时的单例或许已不再是单例了。。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Klm-sd-oae">
+                                <rect key="frame" x="20" y="279" width="560" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Klm-sd-oae" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7sV-jB-Rry"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ocD-YL-n91" secondAttribute="trailing" constant="-20" id="Dzl-ND-KQM"/>
+                            <constraint firstItem="Klm-sd-oae" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="SOp-bP-h1S"/>
+                            <constraint firstItem="ocD-YL-n91" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="W1U-iQ-Cav"/>
+                            <constraint firstItem="Klm-sd-oae" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c24-QW-vbT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ocD-YL-n91" secondAttribute="bottom" id="gio-X0-2z8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Klm-sd-oae" secondAttribute="trailing" id="jq4-6T-WNP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="单例生命周期测试" id="8Ez-sK-VRw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="266" y="1143"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="soN-0y-b96">
+            <objects>
+                <viewController id="LBB-C7-TCV" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gB0-bd-Cpm"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Uu-ne-Pae"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8ub-vd-aNF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XLy-zp-Tqe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="266" y="1836"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fOK-KT-gDM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WwN-DP-keC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VBh-iZ-N4g">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Xeu-EZ-gAZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KzI-KP-rhY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="266" y="477"/>
+        </scene>
+    </scenes>
+</document>
