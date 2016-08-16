@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E57D92261D6334EC001E1370 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D92251D6334EC001E1370 /* main.m */; };
+		E57D92291D6334EC001E1370 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D92281D6334EC001E1370 /* AppDelegate.m */; };
+		E57D922C1D6334EC001E1370 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D922B1D6334EC001E1370 /* ViewController.m */; };
+		E57D922F1D6334EC001E1370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57D922D1D6334EC001E1370 /* Main.storyboard */; };
+		E57D92311D6334EC001E1370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E57D92301D6334EC001E1370 /* Assets.xcassets */; };
+		E57D92341D6334EC001E1370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57D92321D6334EC001E1370 /* LaunchScreen.storyboard */; };
+		E57D923D1D63352B001E1370 /* PersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D923C1D63352B001E1370 /* PersonViewModel.m */; };
+		E57D92401D63355A001E1370 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D923F1D63355A001E1370 /* Person.m */; };
+		E57D92521D633D9A001E1370 /* FDGapLayoutGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D92431D633D9A001E1370 /* FDGapLayoutGuide.m */; };
+		E57D92531D633D9A001E1370 /* FDLayoutSpacer.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D92451D633D9A001E1370 /* FDLayoutSpacer.m */; };
+		E57D92541D633D9A001E1370 /* FDStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D92471D633D9A001E1370 /* FDStackView.m */; };
+		E57D92551D633D9A001E1370 /* FDStackViewAlignmentLayoutArrangement.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D92491D633D9A001E1370 /* FDStackViewAlignmentLayoutArrangement.m */; };
+		E57D92561D633D9A001E1370 /* FDStackViewDistributionLayoutArrangement.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D924B1D633D9A001E1370 /* FDStackViewDistributionLayoutArrangement.m */; };
+		E57D92571D633D9A001E1370 /* FDStackViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D924D1D633D9A001E1370 /* FDStackViewExtensions.m */; };
+		E57D92581D633D9A001E1370 /* FDStackViewLayoutArrangement.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D924F1D633D9A001E1370 /* FDStackViewLayoutArrangement.m */; };
+		E57D92591D633D9A001E1370 /* FDTransformLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D92511D633D9A001E1370 /* FDTransformLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E57D92211D6334EC001E1370 /* MVVM-EXP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-EXP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57D92251D6334EC001E1370 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E57D92271D6334EC001E1370 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E57D92281D6334EC001E1370 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E57D922A1D6334EC001E1370 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E57D922B1D6334EC001E1370 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E57D922E1D6334EC001E1370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E57D92301D6334EC001E1370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E57D92331D6334EC001E1370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E57D92351D6334EC001E1370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E57D923B1D63352B001E1370 /* PersonViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewModel.h; sourceTree = "<group>"; };
+		E57D923C1D63352B001E1370 /* PersonViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewModel.m; sourceTree = "<group>"; };
+		E57D923E1D63355A001E1370 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E57D923F1D63355A001E1370 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E57D92421D633D9A001E1370 /* FDGapLayoutGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDGapLayoutGuide.h; sourceTree = "<group>"; };
+		E57D92431D633D9A001E1370 /* FDGapLayoutGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDGapLayoutGuide.m; sourceTree = "<group>"; };
+		E57D92441D633D9A001E1370 /* FDLayoutSpacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDLayoutSpacer.h; sourceTree = "<group>"; };
+		E57D92451D633D9A001E1370 /* FDLayoutSpacer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDLayoutSpacer.m; sourceTree = "<group>"; };
+		E57D92461D633D9A001E1370 /* FDStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDStackView.h; sourceTree = "<group>"; };
+		E57D92471D633D9A001E1370 /* FDStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDStackView.m; sourceTree = "<group>"; };
+		E57D92481D633D9A001E1370 /* FDStackViewAlignmentLayoutArrangement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDStackViewAlignmentLayoutArrangement.h; sourceTree = "<group>"; };
+		E57D92491D633D9A001E1370 /* FDStackViewAlignmentLayoutArrangement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDStackViewAlignmentLayoutArrangement.m; sourceTree = "<group>"; };
+		E57D924A1D633D9A001E1370 /* FDStackViewDistributionLayoutArrangement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDStackViewDistributionLayoutArrangement.h; sourceTree = "<group>"; };
+		E57D924B1D633D9A001E1370 /* FDStackViewDistributionLayoutArrangement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDStackViewDistributionLayoutArrangement.m; sourceTree = "<group>"; };
+		E57D924C1D633D9A001E1370 /* FDStackViewExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDStackViewExtensions.h; sourceTree = "<group>"; };
+		E57D924D1D633D9A001E1370 /* FDStackViewExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDStackViewExtensions.m; sourceTree = "<group>"; };
+		E57D924E1D633D9A001E1370 /* FDStackViewLayoutArrangement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDStackViewLayoutArrangement.h; sourceTree = "<group>"; };
+		E57D924F1D633D9A001E1370 /* FDStackViewLayoutArrangement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDStackViewLayoutArrangement.m; sourceTree = "<group>"; };
+		E57D92501D633D9A001E1370 /* FDTransformLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTransformLayer.h; sourceTree = "<group>"; };
+		E57D92511D633D9A001E1370 /* FDTransformLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTransformLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E57D921E1D6334EC001E1370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E57D92181D6334EB001E1370 = {
+			isa = PBXGroup;
+			children = (
+				E57D92231D6334EC001E1370 /* MVVM-EXP */,
+				E57D92221D6334EC001E1370 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E57D92221D6334EC001E1370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E57D92211D6334EC001E1370 /* MVVM-EXP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E57D92231D6334EC001E1370 /* MVVM-EXP */ = {
+			isa = PBXGroup;
+			children = (
+				E57D92411D633D9A001E1370 /* FDStackView */,
+				E57D92271D6334EC001E1370 /* AppDelegate.h */,
+				E57D92281D6334EC001E1370 /* AppDelegate.m */,
+				E57D922A1D6334EC001E1370 /* ViewController.h */,
+				E57D922B1D6334EC001E1370 /* ViewController.m */,
+				E57D923E1D63355A001E1370 /* Person.h */,
+				E57D923F1D63355A001E1370 /* Person.m */,
+				E57D923B1D63352B001E1370 /* PersonViewModel.h */,
+				E57D923C1D63352B001E1370 /* PersonViewModel.m */,
+				E57D922D1D6334EC001E1370 /* Main.storyboard */,
+				E57D92301D6334EC001E1370 /* Assets.xcassets */,
+				E57D92321D6334EC001E1370 /* LaunchScreen.storyboard */,
+				E57D92351D6334EC001E1370 /* Info.plist */,
+				E57D92241D6334EC001E1370 /* Supporting Files */,
+			);
+			path = "MVVM-EXP";
+			sourceTree = "<group>";
+		};
+		E57D92241D6334EC001E1370 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E57D92251D6334EC001E1370 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E57D92411D633D9A001E1370 /* FDStackView */ = {
+			isa = PBXGroup;
+			children = (
+				E57D92421D633D9A001E1370 /* FDGapLayoutGuide.h */,
+				E57D92431D633D9A001E1370 /* FDGapLayoutGuide.m */,
+				E57D92441D633D9A001E1370 /* FDLayoutSpacer.h */,
+				E57D92451D633D9A001E1370 /* FDLayoutSpacer.m */,
+				E57D92461D633D9A001E1370 /* FDStackView.h */,
+				E57D92471D633D9A001E1370 /* FDStackView.m */,
+				E57D92481D633D9A001E1370 /* FDStackViewAlignmentLayoutArrangement.h */,
+				E57D92491D633D9A001E1370 /* FDStackViewAlignmentLayoutArrangement.m */,
+				E57D924A1D633D9A001E1370 /* FDStackViewDistributionLayoutArrangement.h */,
+				E57D924B1D633D9A001E1370 /* FDStackViewDistributionLayoutArrangement.m */,
+				E57D924C1D633D9A001E1370 /* FDStackViewExtensions.h */,
+				E57D924D1D633D9A001E1370 /* FDStackViewExtensions.m */,
+				E57D924E1D633D9A001E1370 /* FDStackViewLayoutArrangement.h */,
+				E57D924F1D633D9A001E1370 /* FDStackViewLayoutArrangement.m */,
+				E57D92501D633D9A001E1370 /* FDTransformLayer.h */,
+				E57D92511D633D9A001E1370 /* FDTransformLayer.m */,
+			);
+			path = FDStackView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E57D92201D6334EC001E1370 /* MVVM-EXP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E57D92381D6334EC001E1370 /* Build configuration list for PBXNativeTarget "MVVM-EXP" */;
+			buildPhases = (
+				E57D921D1D6334EC001E1370 /* Sources */,
+				E57D921E1D6334EC001E1370 /* Frameworks */,
+				E57D921F1D6334EC001E1370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MVVM-EXP";
+			productName = "MVVM-EXP";
+			productReference = E57D92211D6334EC001E1370 /* MVVM-EXP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E57D92191D6334EB001E1370 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = BqLin;
+				TargetAttributes = {
+					E57D92201D6334EC001E1370 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E57D921C1D6334EB001E1370 /* Build configuration list for PBXProject "MVVM-EXP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E57D92181D6334EB001E1370;
+			productRefGroup = E57D92221D6334EC001E1370 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E57D92201D6334EC001E1370 /* MVVM-EXP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E57D921F1D6334EC001E1370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57D92341D6334EC001E1370 /* LaunchScreen.storyboard in Resources */,
+				E57D92311D6334EC001E1370 /* Assets.xcassets in Resources */,
+				E57D922F1D6334EC001E1370 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E57D921D1D6334EC001E1370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57D922C1D6334EC001E1370 /* ViewController.m in Sources */,
+				E57D92571D633D9A001E1370 /* FDStackViewExtensions.m in Sources */,
+				E57D92291D6334EC001E1370 /* AppDelegate.m in Sources */,
+				E57D92401D63355A001E1370 /* Person.m in Sources */,
+				E57D92541D633D9A001E1370 /* FDStackView.m in Sources */,
+				E57D92551D633D9A001E1370 /* FDStackViewAlignmentLayoutArrangement.m in Sources */,
+				E57D92591D633D9A001E1370 /* FDTransformLayer.m in Sources */,
+				E57D92581D633D9A001E1370 /* FDStackViewLayoutArrangement.m in Sources */,
+				E57D92521D633D9A001E1370 /* FDGapLayoutGuide.m in Sources */,
+				E57D92531D633D9A001E1370 /* FDLayoutSpacer.m in Sources */,
+				E57D92261D6334EC001E1370 /* main.m in Sources */,
+				E57D92561D633D9A001E1370 /* FDStackViewDistributionLayoutArrangement.m in Sources */,
+				E57D923D1D63352B001E1370 /* PersonViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E57D922D1D6334EC001E1370 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E57D922E1D6334EC001E1370 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E57D92321D6334EC001E1370 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E57D92331D6334EC001E1370 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E57D92361D6334EC001E1370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E57D92371D6334EC001E1370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E57D92391D6334EC001E1370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MVVM-EXP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bq.MVVM-EXP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E57D923A1D6334EC001E1370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MVVM-EXP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bq.MVVM-EXP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E57D921C1D6334EB001E1370 /* Build configuration list for PBXProject "MVVM-EXP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E57D92361D6334EC001E1370 /* Debug */,
+				E57D92371D6334EC001E1370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E57D92381D6334EC001E1370 /* Build configuration list for PBXNativeTarget "MVVM-EXP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E57D92391D6334EC001E1370 /* Debug */,
+				E57D923A1D6334EC001E1370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E57D92191D6334EB001E1370 /* Project object */;
+}
