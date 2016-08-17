@@ -10,4 +10,13 @@
 
 @interface User : NSObject
 
+@property (nonatomic, assign) NSInteger identifier;
+@property (nonatomic, copy) NSString *userName;
+@property (nonatomic, copy) NSString *firstName;
+@property (nonatomic, copy) NSString *lastName;
+@property (nonatomic, copy) NSArray *photos;
+
+- (NSString *)fullName;
+- (NSUInteger)numberOfPhotosToken;
+
 @end

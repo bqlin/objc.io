@@ -13,6 +13,9 @@
 		E57D92711D6343F8001E1370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57D926F1D6343F8001E1370 /* Main.storyboard */; };
 		E57D92731D6343F8001E1370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E57D92721D6343F8001E1370 /* Assets.xcassets */; };
 		E57D92761D6343F8001E1370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57D92741D6343F8001E1370 /* LaunchScreen.storyboard */; };
+		E57D92801D634487001E1370 /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D927F1D634487001E1370 /* Store.m */; };
+		E57D92831D6344D9001E1370 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D92821D6344D9001E1370 /* Photo.m */; };
+		E57D92861D6347B2001E1370 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D92851D6347B2001E1370 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		E57D92721D6343F8001E1370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E57D92751D6343F8001E1370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E57D92771D6343F8001E1370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E57D927E1D634487001E1370 /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		E57D927F1D634487001E1370 /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		E57D92811D6344D9001E1370 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		E57D92821D6344D9001E1370 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		E57D92841D6347B2001E1370 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		E57D92851D6347B2001E1370 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 		E57D92651D6343F8001E1370 /* PotoData-Exp */ = {
 			isa = PBXGroup;
 			children = (
+				E57D927D1D63446E001E1370 /* Model */,
 				E57D92691D6343F8001E1370 /* AppDelegate.h */,
 				E57D926A1D6343F8001E1370 /* AppDelegate.m */,
 				E57D926C1D6343F8001E1370 /* ViewController.h */,
@@ -77,6 +87,19 @@
 				E57D92671D6343F8001E1370 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E57D927D1D63446E001E1370 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E57D927E1D634487001E1370 /* Store.h */,
+				E57D927F1D634487001E1370 /* Store.m */,
+				E57D92811D6344D9001E1370 /* Photo.h */,
+				E57D92821D6344D9001E1370 /* Photo.m */,
+				E57D92841D6347B2001E1370 /* User.h */,
+				E57D92851D6347B2001E1370 /* User.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +174,10 @@
 			files = (
 				E57D926E1D6343F8001E1370 /* ViewController.m in Sources */,
 				E57D926B1D6343F8001E1370 /* AppDelegate.m in Sources */,
+				E57D92861D6347B2001E1370 /* User.m in Sources */,
 				E57D92681D6343F8001E1370 /* main.m in Sources */,
+				E57D92831D6344D9001E1370 /* Photo.m in Sources */,
+				E57D92801D634487001E1370 /* Store.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "PotoData-Exp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bq.PotoData-Exp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "PotoData-Exp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bq.PotoData-Exp";
 				PRODUCT_NAME = "$(TARGET_NAME)";

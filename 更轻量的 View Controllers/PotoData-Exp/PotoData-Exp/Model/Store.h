@@ -10,4 +10,11 @@
 
 @interface Store : NSObject
 
+@property (nonatomic, readonly) NSArray *photos;
+@property (nonatomic, readonly) NSArray *users;
+
+- (NSArray *)storedPhotos;
+
++ (instancetype)store;
+
 @end
